@@ -119,7 +119,7 @@ public class StringUtil {
 	 * 获取n个随机中文字符串
 	 * @return
 	 */
-	public static String getAChinese() {
+	public static String getAChinese(int length) {
         StringBuilder str = new StringBuilder();
         int hs = 0 ;
         int ls = 0; 
@@ -158,7 +158,7 @@ public class StringUtil {
 		return result.toString();
 	}
 	
-	public Integer RandomUtil(Integer start,Integer end){
+	public static Integer RandomUtil(Integer start,Integer end){
 		
 		Integer num = 0;
 		
